@@ -36,7 +36,7 @@
 }
 
 .contact::before {
-    background-image: url(/Images/UX\ Secondary\ Image.jpeg);
+    background-image: url(../images/UX\ Secondary\ Image.jpeg);
     background-size: cover;
     content: '';
     position: absolute;
