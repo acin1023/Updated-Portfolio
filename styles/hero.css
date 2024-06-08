@@ -29,7 +29,7 @@
 }
 
 .hero__container {
-    background-image: url(/Images/Main\ Hero\ Img.jpg);
+    background-image: url(../images/Main\ Hero\ Img.jpg);
     opacity: .7;
     padding: 6rem;
     margin: 0 auto;
