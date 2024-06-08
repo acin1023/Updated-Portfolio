@@ -1,0 +1,112 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+
+:root {
+    --clr-main: #1a1a1a;
+    --clr-light: #f1f5f9;
+    --clr-slate500: #64748b;
+    --clr-slate700: #334155;
+    --clr-slate800: #1e293b;
+    --clr-teal700: #0f766e;
+    --clr--emerald600: #059669;
+    --clr-emerald400: #34d399;
+    --clr-green400: #4ade80;
+    --clr-greenmain: #76a18e;
+    /* flex basis sizing  */
+
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-s: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: var(--clr-light);
+}
+
+strong {
+    color: var(--clr-teal700);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header__hr {
+    border-color: var(--clr-teal700);
+    border-width: 0.2rem;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr--emerald600);
+    outline: 1px solid var(--clr-emerald600);
+}
+
+/* xs screens */
+/* @media (min-width: 475px) {} */
+
+/* small screens */
+/* @media (min-width: 648px) {} */
+
+/* medium screens */
+/* @media (min-width: 768px) {} */
+
+/* l screens */
+/* @media (min-width: 1024px) {} */
+
+/* xl screens */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl screens
+@media (min-width: 1536px) {} */
