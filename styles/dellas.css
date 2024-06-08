@@ -164,7 +164,7 @@
 }
 
 .design__process-section::before {
-    background-image: url(/Images/UX\ Secondary\ Image.jpeg);
+    background-image: url(../images/UX\ Secondary\ Image.jpeg);
     background-size: cover;
     content: '';
     position: absolute;
@@ -179,7 +179,7 @@
 
 
 .end_result-container {
-    background-image: url(/Images/cs\ alt\ 3.jpg);
+    background-image: url(../images/cs\ alt\ 3.jpg);
     background-size: cover;
     padding: 10rem;
 }
