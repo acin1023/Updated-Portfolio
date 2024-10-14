@@ -79,7 +79,6 @@
 }
 
 .cs__description {
-    max-width: 60ch;
     color: var(--clr-light);
     font-size: var(--size-s);
     margin: 1rem 0;
@@ -92,6 +91,7 @@
     .cs__title {
         font-size: var(--size-2xl);
         text-align: center;
+        width: 90vw;
     }
 
     .cs__subtitle {
@@ -100,14 +100,15 @@
 
 
     .cs__link {
-        width: var(--size-5xl);
-        height: var(--size-5xl);
+        width: var(--size-3xl);
+        height: var(--size-3xl);
     }
 
     .cs__description {
         color: var(--clr-light);
         font-size: var(--size-s);
         margin: 1.5rem auto;
+        width: 70vw;
     }
 
 }

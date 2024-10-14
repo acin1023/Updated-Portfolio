@@ -160,7 +160,17 @@ form textarea {
 
 
 /* xs screens */
-@media (min-width: 475px) {
+@media (min-width: 375px) {
+
+    .contact__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 2rem auto;
+        gap: 1rem;
+
+
+    }
+
     .contact__title-one {
         font-size: var(--size-2xl);
     }

@@ -58,7 +58,7 @@
 }
 
 .hero__description {
-    max-width: 60vw;
+    width: 70vw;
     color: var(--clr-light);
     font-size: var(--size-s);
     margin: 1rem 0;
