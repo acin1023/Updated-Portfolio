@@ -51,6 +51,7 @@
     font-size: var(--size-xl);
     color: var(--clr-light);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .cs__subtitle {
@@ -87,9 +88,10 @@
 
 
 /* xs screens */
-@media (min-width: 475px) {
+@media (min-width: 320px) {
     .cs__title {
         font-size: var(--size-2xl);
+        text-align: center;
     }
 
     .cs__subtitle {
@@ -98,13 +100,14 @@
 
 
     .cs__link {
-        width: var(--size-2xl);
-        height: var(--size-2xl);
+        width: var(--size-5xl);
+        height: var(--size-5xl);
     }
 
     .cs__description {
-        font-size: var(--size-base);
-        margin: 1.5rem 0;
+        color: var(--clr-light);
+        font-size: var(--size-s);
+        margin: 1.5rem auto;
     }
 
 }
