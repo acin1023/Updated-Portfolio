@@ -34,8 +34,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/Dellas\ Main2.jpg);
-    opacity: .7;
+    background-image: url(../images/interior1medium.jpeg);
+    opacity: .6;
     padding: 6rem;
     margin: 0 auto;
     text-align: center;
@@ -88,6 +88,11 @@
 
 /* xs screens */
 @media (min-width: 320px) {
+    .cs__container--section {
+        padding: 1rem;
+    }
+
+
     .cs__title {
         font-size: var(--size-2xl);
         text-align: center;
@@ -98,29 +103,29 @@
         font-size: var(--size-base);
     }
 
-
-    .cs__link {
-        width: var(--size-3xl);
-        height: var(--size-3xl);
-    }
-
     .cs__description {
         color: var(--clr-light);
         font-size: var(--size-s);
-        margin: 1.5rem auto;
+        margin: auto;
         width: 70vw;
     }
 
 }
 
 /* small screens */
-/* @media (min-width: 648px) {} */
+@media (min-width: 648px) {
+    .cs__container--section {
+        padding: 6rem;
+    }
+}
 
 /* medium screens */
 /* @media (min-width: 768px) {} */
 
 /* l screens */
 @media (min-width: 1024px) {
+
+
     .cs__title {
         font-size: var(--size-5xl);
     }
